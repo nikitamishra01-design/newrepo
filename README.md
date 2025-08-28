@@ -12,4 +12,5 @@
 - react, CSS, React (optional)  
 - Git & GitHub  
 
-
+project -
+- - 👉 [React beauty project](https://beautyapp12.netlify.app/)
