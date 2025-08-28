@@ -1,0 +1,117 @@
+/* ========== Premium Products Page ========== */
+.products {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.products h2 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #d63384;
+  font-weight: bold;
+}
+
+/* ✅ slick slide fix (sab box equal size) */
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: stretch;
+  height: auto !important;
+}
+
+.slick-list {
+  padding: 20px 0; /* thoda gap top-bottom */
+}
+
+/* Product Card */
+.product-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid rgba(255, 105, 180, 0.2);
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;        /* ✅ slide ki width le */
+  max-width: 280px;   /* ✅ fixed max width */
+  min-height: 360px;  /* ✅ sab card same height */
+  text-align: center;
+  margin: 10px;
+}
+
+/* Image */
+.product-card img {
+  width: 100%;
+  height: 180px;       /* ✅ equal image size */
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* Title */
+.product-card h3 {
+  font-size: 18px;
+  color: #d63384;
+  margin: 10px 0;
+}
+
+/* Price */
+.product-card .price {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Description */
+.product-card p {
+  flex-grow: 1;        /* ✅ jitna bacha space use kare */
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.product-card button {
+  background: #e91e63;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.product-card button:hover {
+  background: #c2185b;
+}
+
+/* ✅ Responsive */
+@media (max-width: 1024px) {
+  .product-card {
+    max-width: 240px;
+    min-height: 330px;
+  }
+
+  .product-card img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-card {
+    max-width: 220px;
+    min-height: 300px;
+  }
+
+  .product-card img {
+    height: 140px;
+  }
+}
+
+
+
+
