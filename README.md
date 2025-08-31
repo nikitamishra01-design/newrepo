@@ -13,4 +13,4 @@
 - Git & GitHub  
 
 project -
-- - 👉 [React beauty project](https://beautyapp12.netlify.app/)
+ - 👉 [React beauty project](https://beautyapp12.netlify.app/)
