@@ -14,4 +14,5 @@
 
 project -
  - 👉 [React beauty project](https://beautyapp12.netlify.app/)
- -  - 👉 [ responsive slider project](https://slider1212.netlify.app/)
+- 👉 [responsive beauty app clone ](https://responsive-beautyapp.netlify.app/)
+ - 👉 [ responsive slider project](https://slider1212.netlify.app/)
