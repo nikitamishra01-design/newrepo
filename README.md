@@ -12,7 +12,7 @@
 - react, CSS, React (optional)  
 - Git & GitHub  
 
-project -
+project 
 - 👉 [responsive beauty app clone ](https://beautyapp-clone.netlify.app/)
  - 👉 [React beauty project](https://beautyapp12.netlify.app/)
 - 👉 [responsive beauty app clone ](https://responsive-beautyapp.netlify.app/)
